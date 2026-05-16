@@ -1,4 +1,6 @@
 import { DialogRequestForm } from "@/widgets"
+import { CompoundComponentPage } from "@/compound-components/page"
+
 
 export default function Page() {
   return (
@@ -8,6 +10,8 @@ export default function Page() {
           Services for traveling around Russia
         </h1>
         <DialogRequestForm />
+        <CompoundComponentPage />
+    
       </div>
     </div>
   )
